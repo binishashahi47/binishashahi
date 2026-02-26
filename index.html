@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Data Analyst | Banking & Sales Analytics Professional | Power BI, SQL, Python">
     <meta name="keywords" content="Data Analyst, Nepal, Power BI, SQL, Python, Banking Analytics, Excel">
-    <meta name="author" content="Your Name">
-    <title>Your Name | Data Analyst</title>
+    <meta name="author" content="Binisha Shahi">
+    <title>Binisha Shahi | Data Analyst</title>
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -113,14 +112,17 @@
             border: 4px solid rgba(255,255,255,0.3);
             margin-bottom: 24px;
             object-fit: cover;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 48px;
-            font-weight: 700;
             margin-left: auto;
             margin-right: auto;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
         }
 
         .header h1 {
@@ -143,6 +145,29 @@
             max-width: 600px;
             margin: 0 auto 24px;
             line-height: 1.7;
+        }
+
+        /* Quote Styles */
+        .quote-section {
+            margin: 20px auto;
+            padding: 16px 24px;
+            background: rgba(255,255,255,0.1);
+            border-left: 4px solid var(--accent);
+            border-radius: 0 var(--radius-md) var(--radius-md) 0;
+            max-width: 500px;
+        }
+
+        .quote-text {
+            font-size: 1.1rem;
+            font-style: italic;
+            color: rgba(255,255,255,0.95);
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .quote-text i {
+            color: var(--accent);
+            margin-right: 8px;
         }
 
         .contact-bar {
@@ -907,6 +932,14 @@
                 flex-direction: column;
                 gap: 12px;
             }
+
+            .quote-section {
+                padding: 12px 16px;
+            }
+
+            .quote-text {
+                font-size: 0.95rem;
+            }
         }
 
         /* ============================================
@@ -955,10 +988,11 @@
     ============================================ -->
     <header class="header">
         <div class="header-content">
+            <!-- PROFILE IMAGE - Your photo added here -->
             <div class="profile-image">
-                <!-- Replace with your image: <img src="your-photo.jpg" alt="Your Name"> -->
-                YN
+                <img src="Binisha_Shahi.jfif" alt="Binisha Shahi">
             </div>
+            
             <h1>Binisha Shahi</h1>
             <div class="header-title">Data Analyst | Banking & Sales Analytics Professional</div>
             <p class="header-subtitle">
@@ -966,12 +1000,20 @@
                 financial reporting, and dashboard development. Proficient in Power BI, Excel, SQL, and Python.
             </p>
             
+            <!-- QUOTE SECTION -->
+            <div class="quote-section">
+                <p class="quote-text">
+                    <i class="fas fa-quote-left"></i>
+                    "Be Hungry, Stay Foolish, Stay Delusional"
+                </p>
+            </div>
+            
             <div class="contact-bar">
-                <a href="mailto:your.email@gmail.com" class="contact-item">
+                <a href="mailto:binishashahi47@gmail.com" class="contact-item">
                     <i class="fas fa-envelope"></i>
                     binishashahi47@gmail.com
                 </a>
-                <a href="tel:+977-98XXXXXXXX" class="contact-item">
+                <a href="tel:+977-9849159516" class="contact-item">
                     <i class="fas fa-phone"></i>
                     +977-9849159516
                 </a>
@@ -983,7 +1025,7 @@
                     <i class="fab fa-linkedin"></i>
                     LinkedIn
                 </a>
-                <a href="https://https://www.github.com/binishashahi47/binishashahi" target="_blank" class="contact-item">
+                <a href="https://github.com/binishashahi47/binishashahi" target="_blank" class="contact-item">
                     <i class="fab fa-github"></i>
                     GitHub
                 </a>
@@ -1482,22 +1524,22 @@
             <p>I'm actively seeking Data Analyst opportunities where I can apply my analytical expertise and business acumen to drive measurable organizational growth.</p>
             
             <div class="footer-links">
-                <a href="mailto:your.email@gmail.com" class="footer-link" title="Email">
+                <a href="mailto:binishashahi47@gmail.com" class="footer-link" title="Email">
                     <i class="fas fa-envelope"></i>
                 </a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="footer-link" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/binisha-shahi-5073521aa/" target="_blank" class="footer-link" title="LinkedIn">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-                <a href="https://github.com/yourusername" target="_blank" class="footer-link" title="GitHub">
+                <a href="https://github.com/binishashahi47/binishashahi" target="_blank" class="footer-link" title="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="tel:+977-98XXXXXXXX" class="footer-link" title="Phone">
+                <a href="tel:+977-9849159516" class="footer-link" title="Phone">
                     <i class="fas fa-phone"></i>
                 </a>
             </div>
             
             <p class="footer-copy">
-                © 2026 Binisha Shahi. All rights reserved. | Built with 💙 for Data
+                © 2025 Binisha Shahi. All rights reserved. | Built with 💙 for Data
             </p>
         </div>
     </footer>
@@ -1572,28 +1614,5 @@
         });
     </script>
 
-</body>
-</html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Data Analyst | Banking & Sales Analytics Professional | Power BI, SQL, Python">
-    <meta name="keywords" content="Data Analyst, Nepal, Power BI, SQL, Python, Banking Analytics, Excel">
-    <meta name="author" content="Your Name">
-    <title>Your Name | Data Analyst</title>
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-    <!-- External JavaScript -->
-    <script src="script.js"></script>
 </body>
 </html>
